@@ -39,7 +39,7 @@ def plot_city(cities, sol = {}):
 
     plt.figure(figsize=(3,3))
     pos = nx.spring_layout(G)
-    nx.draw_networkx(G, cities_dict)
+    nx.draw_networkx(G, cities_dict, node_size=400, font_weight='bold', font_color='w')
     plt.axis("off")
     plt.show()
 
