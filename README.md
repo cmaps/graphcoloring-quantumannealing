@@ -1,1 +1,1 @@
-# Mapping Graph Coloring to a Quantum Annealer
+# Mapping Graph Coloring to Quantum Annealing
