@@ -191,7 +191,7 @@ if __name__ == "__main__":
     print("\nD-WAVE OUTPUT:\n")
     print("--------------------------------------------------------------------")
 
-    sampler = LazyFixedEmbeddingComposite(DWaveSampler(endpoint='https://cloud.dwavesys.com/sapi', token='DEV-3969fab6a93a28cd6448f44f0da06dfb04634275', solver='DW_2000Q_5'))
+    sampler = LazyFixedEmbeddingComposite(DWaveSampler(endpoint='https://cloud.dwavesys.com/sapi', token='', solver='DW_2000Q_5'))
 
     # Submit to the D-Wave with nr number of reads
     # Reads number
