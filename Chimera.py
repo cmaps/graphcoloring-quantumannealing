@@ -12,6 +12,6 @@ import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
     f = plt.figure()
-    G=dnx.chimera_graph(12, 12, 4)  # Draw a Chimera unit cell
+    G=dnx.chimera_graph(16, 16, 4)  # Draw a Chimera unit cell
     dnx.draw_chimera(G, node_size=5, node_color='b', node_shape='o', style='-', edge_color='k', width=0.5)
     f.savefig('chimera.pdf', bbox_inches='tight')
